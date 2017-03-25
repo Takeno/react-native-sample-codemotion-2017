@@ -23,22 +23,3 @@ const App = StackNavigator({
 StatusBar.setBarStyle('light-content');
 
 AppRegistry.registerComponent('SampleApp', () => App);
-
-
-// class ProfileScreen extends React.Component {
-//     static navigationOptions = {
-//         title: ({ state }) => `${state.params.name}'s profile`,
-//         header: {
-//            right: <Button title="Info" />,
-//         },
-//     };
-//
-//     render() {
-//         const {goBack} = this.props.navigation;
-//         return (
-//             <Button
-//                 title="Back to main"
-//                 onPress={() => goBack()}/>
-//         );
-//     }
-// }
